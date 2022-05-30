@@ -1,0 +1,23 @@
+{
+  "name": "commandingjs-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodyAaTherf/commandingjs-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodyAaTherf/commandingjs-tests/issues"
+  },
+  "homepage": "https://github.com/CodyAaTherf/commandingjs-tests#readme",
+  "dependencies": {
+    "commanding.js": "github:CodyAaTherf/commanding.js#dev",
+    "discord.js": "^13.7.0"
+  }
+}
