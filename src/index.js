@@ -9,6 +9,7 @@ client.once('ready' , () => {
 
     new CommandingJS(client)
         // .setDefaultPrefix('!')
+        // .setMongoPath('')
 })
 
 client.login(token)
