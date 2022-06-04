@@ -7,7 +7,8 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS , Intents.FLAGS.GUILD
 client.once('ready' , () => {
     console.log("Ready!");
 
-    new CommandingJS(client , 'commands')
+    new CommandingJS(client)
+        // .setDefaultPrefix('!')
 })
 
 client.login(token)
