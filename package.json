@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/CodyAaTherf/commandingjs-tests#readme",
   "dependencies": {
-    "commanding.js": "^1.1.0",
+    "commanding.js": "github:CodyAaTherf/commanding.js#dev",
     "discord.js": "^13.7.0"
   }
 }

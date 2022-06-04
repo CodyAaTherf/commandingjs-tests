@@ -5,7 +5,14 @@ module.exports = {
     name: 'ping-member' ,
     commands: ['ping-member' , 'pingmember' , 'pm'] ,
     description: 'Bot pings the member you ping' ,
+    minArgs: 1 ,
+    maxArgs: 1 ,
     callback: (message) => {
-        message.reply(`Hello !`)
+        const { mentions } = message
+        const target = mentions.users.first()
+
+        if(target){
+            message.channel.send(`Hello , ${target} !`)
+        }
     }
 }
