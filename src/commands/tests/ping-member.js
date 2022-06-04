@@ -5,6 +5,7 @@ module.exports = {
     name: 'ping-member' ,
     commands: ['ping-member' , 'pingmember' , 'pm'] ,
     description: 'Bot pings the member you ping' ,
+    syntaxError: 'wrong symtax! use {PREFIX}{COMMAND} <@mention>' ,
     minArgs: 1 ,
     maxArgs: 1 ,
     callback: (message) => {

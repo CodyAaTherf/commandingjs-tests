@@ -1,3 +1,4 @@
 {
-    "token": ""
+    "token": "" ,
+    "mongo_uri": ""
 }
