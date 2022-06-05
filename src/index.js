@@ -7,10 +7,10 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS , Intents.FLAGS.GUILD
 client.once('ready' , () => {
     console.log("Ready!");
 
-    new CommandingJS(client)
+    new CommandingJS(client , 'commands' , 'listeners')
         // .setDefaultPrefix('!')
         .setMongoPath(config.mongo_uri)
-        .setSyntaxError("Nah this ain't gonna work!")
+        .setSyntaxError("Nah this ain't gonna work! {PREFIX}{COMMAND} {ARGUMENTS}")
 })
 
 client.login(config.token)
